@@ -1,10 +1,10 @@
 body {
   background-color: rgb(179, 224, 173);
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .header {
-  text-align:  center;
+  text-align: center;
 }
 
 .score-section {
@@ -51,4 +51,3 @@ li:nth-child(odd) { background: rgb(185, 181, 214); }
   border: none;
   border-radius: 0.2rem;
 }
-
