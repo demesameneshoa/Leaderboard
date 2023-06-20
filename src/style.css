@@ -1,7 +1,54 @@
 body {
-  background-color: bisque;
+  background-color: rgb(179, 224, 173);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-.hello {
-  color: red;
+.header {
+  text-align:  center;
 }
+
+.score-section {
+  display: flex;
+  gap: 3rem;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.score-list {
+  border: 2px solid gray;
+  padding: 0;
+}
+
+.score-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.refresh {
+  height: 1.5rem;
+  width: 5rem;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+li { background: rgb(202, 236, 202); }
+li:nth-child(odd) { background: rgb(185, 181, 214); }
+
+.nameinput {
+  margin-bottom: 0.4rem;
+  height: 1.5rem;
+}
+
+.scoreinput {
+  margin-bottom: 0.4rem;
+  height: 1.5rem;
+}
+
+.submit {
+  height: 1.5rem;
+  width: 5rem;
+  border: none;
+  border-radius: 0.2rem;
+}
+
