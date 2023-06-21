@@ -9,10 +9,9 @@ export const createGame = async (gameName) => {
   try {
     const response = await fetch(url, requestOptions);
     const data = await response.json();
-    console.log('Game created successfully:', data);
     return data;
   } catch (error) {
-    console.error('Error creating game:', error);
+    return error;
   }
 };
 export const submitScore = async (gameId, userName, userScore) => {
@@ -26,10 +25,9 @@ export const submitScore = async (gameId, userName, userScore) => {
   try {
     const response = await fetch(url, requestOptions);
     const data = await response.json();
-    console.log('Score submitted successfully:', data);
     return data;
   } catch (error) {
-    console.error('Error submitting score:', error);
+    return error;
   }
 };
 
@@ -39,9 +37,8 @@ export const getScores = async (gameId) => {
   try {
     const response = await fetch(url);
     const data = await response.json();
-    console.log('Scores fetched successfully:', data);
     return data;
   } catch (error) {
-    console.error('Error fetching scores:', error);
+    return error;
   }
 };

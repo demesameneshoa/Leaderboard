@@ -1,4 +1,4 @@
-export const displayScores = (scores) => {
+const displayScores = (scores) => {
   const leaderboard = document.getElementById('score-list');
   leaderboard.innerHTML = '';
   scores.forEach((score) => {
@@ -7,3 +7,5 @@ export const displayScores = (scores) => {
     leaderboard.appendChild(listItem);
   });
 };
+
+export default displayScores;
