@@ -52,7 +52,10 @@
 
 - **Web pack deployed**
 - **Form for Score Recording Deployed**
-- **List to display scores Added**
+- **List to display Scores Added**
+- **API Linked to create a Game**
+- **Used API to store Scores**
+- **Used API to Fetch the Scores**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,8 +122,7 @@ npm install
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Deploy API**
-- [ ] **Change Contents From JavaScript**
+- [ ] **Use Local Storage**
 - [ ] **Create Attractive UI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

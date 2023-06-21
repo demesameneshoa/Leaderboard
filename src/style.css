@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(179, 224, 173);
+  background-color: rgb(248, 248, 248);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -9,17 +9,17 @@ body {
 
 .score-section {
   display: flex;
-  gap: 3rem;
+  gap: 10%;
   flex-direction: row;
   justify-content: center;
 }
 
-.score-list {
+.score-container {
   border: 2px solid gray;
   padding: 0;
 }
 
-.score-list ul {
+.score-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -28,12 +28,12 @@ body {
 .refresh {
   height: 1.5rem;
   width: 5rem;
-  border: none;
+  border: gray solid;
   border-radius: 0.2rem;
 }
 
-li { background: rgb(202, 236, 202); }
-li:nth-child(odd) { background: rgb(185, 181, 214); }
+li { background: rgb(233, 235, 233); }
+li:nth-child(odd) { background: rgb(255, 255, 255); }
 
 .nameinput {
   margin-bottom: 0.4rem;
@@ -48,6 +48,6 @@ li:nth-child(odd) { background: rgb(185, 181, 214); }
 .submit {
   height: 1.5rem;
   width: 5rem;
-  border: none;
+  border: gray solid;
   border-radius: 0.2rem;
 }
