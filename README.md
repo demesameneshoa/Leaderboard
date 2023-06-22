@@ -70,7 +70,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <a href="#"></a> Coming Soon
+- <a href="https://demesameneshoa.github.io/Leaderboard/"></a> Coming Soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
