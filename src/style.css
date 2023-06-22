@@ -1,6 +1,8 @@
 body {
-  background-color: rgb(248, 248, 248);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
 }
 
 .header {
@@ -9,14 +11,15 @@ body {
 
 .score-section {
   display: flex;
-  gap: 10%;
+  gap: 2%;
   flex-direction: row;
   justify-content: center;
 }
 
 .score-container {
-  border: 2px solid gray;
+  border: 2px solid rgb(119, 138, 122);
   padding: 0;
+  line-height: 2rem;
 }
 
 .score-list {
@@ -25,29 +28,45 @@ body {
   padding: 0;
 }
 
-.refresh {
-  height: 1.5rem;
+.refresh,
+#submit {
+  height: 2rem;
   width: 5rem;
-  border: gray solid;
+  background-color: rgb(73, 168, 87);
+  border: none;
+  color: white;
   border-radius: 0.2rem;
 }
 
 li { background: rgb(233, 235, 233); }
 li:nth-child(odd) { background: rgb(255, 255, 255); }
 
-.nameinput {
+#name,
+#score {
   margin-bottom: 0.4rem;
   height: 1.5rem;
+  width: 60%;
 }
 
-.scoreinput {
-  margin-bottom: 0.4rem;
-  height: 1.5rem;
+.score-list-container,
+.form-container {
+  background-color: white;
+  padding: 3rem;
+  width: 30%;
+  box-shadow: 5px 5px 5px rgb(169, 167, 167);
 }
 
-.submit {
-  height: 1.5rem;
-  width: 5rem;
-  border: gray solid;
-  border-radius: 0.2rem;
+@media (max-width: 768px) {
+  .score-section {
+    display: flex;
+    gap: 2%;
+    flex-direction: column-reverse;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .score-list-container,
+  .form-container {
+    width: 75%;
+  }
 }

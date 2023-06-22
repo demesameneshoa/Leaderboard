@@ -56,6 +56,7 @@
 - **API Linked to create a Game**
 - **Used API to store Scores**
 - **Used API to Fetch the Scores**
+- **Attractive User Interface**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,7 +70,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <a href="#"></a> Coming Soon
+- <a href="https://demesameneshoa.github.io/Leaderboard/"></a> Coming Soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,8 +123,7 @@ npm install
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Use Local Storage**
-- [ ] **Create Attractive UI**
+- [ ] **Optimize for mobile devices**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
